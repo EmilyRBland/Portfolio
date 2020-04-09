@@ -1,0 +1,251 @@
+html, body {
+    box-sizing: border-box;
+    font-size: 100vh;
+    margin: 0;
+}
+
+.grid-container {
+    width: 100%;
+    display: grid;
+    grid-gap: 0.5vmax;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-variant-caps: small-caps;
+    color: rgb(255, 255, 255);
+}
+
+.box1 {
+    grid-area: 1 / 1 / 2 / 3;
+    padding: 2%;
+    font-size: 4vh;
+    letter-spacing: 0.3vmax;
+    width: 100%;
+    height: 45vh;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .box2 {
+    grid-area: 1 / 1 / 2 / 3;
+    height: 45vh;
+    background-image: url("file:///Users/emilybland/Portfolio/img/emily.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+  }
+
+
+  .box3 {
+    grid-area: 2 / 1 / 3 / 2;
+    height: 30vh;
+    width: 50vw;
+    background-image: url("file:///Users/emilybland/Portfolio/img/dog2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+  }
+
+  .dog-text {
+      width: 100%;
+      font-size: 3.5vh;
+      background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .box4 {
+    grid-area: 2 / 2 / 3 / 3;
+    height: 30vh;
+    width: 50vw;
+    background-image: url("file:///Users/emilybland/Portfolio/img/coffee.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+  }
+  
+  .coffee-text {
+      width: 100%;
+      font-size: 3.5vh;
+      background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .tech-text {
+    width: 100%;
+    font-size: 3.5vh;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .box5 {
+      grid-area: 3 / 1 / 4 / 2;
+      height: 30vh;
+      width: 50vw;
+      background-image: url("file:///Users/emilybland/Portfolio/img/tech.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+  }
+
+  .box6 {
+      grid-area: 3 / 2 / 4 / 3;
+      height: 30vh;
+      width: 50vw;
+      display: inline;
+  }
+
+  .learn{
+    width: 100%;
+    font-size: 3.5vh;
+    text-transform: capitalize;
+  }
+
+  a:link {
+    width: 100%;
+    padding-top: 2vmax;
+    font-size: 3.5vh;
+    background-color: rgba(202, 16, 62, 0.596);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+  a:visited {
+    width: 100%;
+    padding-top: 2vmax;
+    font-size: 3.5vh;
+    background-color: rgba(202, 16, 62, 0.596);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+  a:hover {
+    width: 100%;
+    padding-top: 2vmax;
+    font-size: 3.5vh;
+    background-color: rgb(202, 16, 62);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+@media only screen and (max-width: 800px) {
+  .box1 {
+    grid-area: 1 / 1 / 2 / 3;
+    padding: 2%;
+    font-size: 4vh;
+    letter-spacing: 0.3vmax;
+    width: 100%;
+    height: 45vh;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .box2 {
+    grid-area: 1 / 1 / 2 / 3;
+    height: 45vh;
+    background-image: url("file:///Users/emilybland/Portfolio/img/emily.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+  }
+
+
+  .box3 {
+    grid-area: 2 / 1 / 3 / 2;
+    height: 30vh;
+    width: 50vw;
+    background-image: url("file:///Users/emilybland/Portfolio/img/dog2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+  }
+
+  .dog-text {
+      width: 100%;
+      padding-top: 2vmax;
+      font-size: 3.5vh;
+      background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .box4 {
+    grid-area: 2 / 2 / 3 / 3;
+    height: 30vh;
+    width: 50vw;
+    background-image: url("file:///Users/emilybland/Portfolio/img/coffee.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+  }
+  
+  .coffee-text {
+      width: 100%;
+      padding-top: 2vmax;
+      font-size: 3.5vh;
+      background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .box5 {
+      grid-area: 3 / 1 / 4 / 2;
+      height: 30vh;
+      width: 50vw;
+      background-image: url("file:///Users/emilybland/Portfolio/img/tech.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+  }
+
+  .tech-text {
+    width: 100%;
+    padding-top: 2vmax;
+    font-size: 3.5vh;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .box6 {
+      grid-area: 3 / 2 / 4 / 3;
+      height: 30vh;
+      width: 50vw;
+      display: inline;
+  }
+  .learn{
+    width: 100%;
+    font-size: 3.5vh;
+    text-transform: capitalize;
+  }
+
+  a:link {
+    width: 100%;
+    padding-top: 2vmax;
+    font-size: 3.5vh;
+    background-color: rgba(202, 16, 62, 0.596);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+  a:visited {
+    width: 100%;
+    padding-top: 2vmax;
+    font-size: 3.5vh;
+    background-color: rgba(202, 16, 62, 0.596);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+  a:hover {
+    width: 100%;
+    padding-top: 2vmax;
+    font-size: 3.5vh;
+    background-color: rgb(202, 16, 62);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+}
+
+.shadow-letter {
+    color: rgba(202, 16, 62, 0.596);
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.4);
+}
